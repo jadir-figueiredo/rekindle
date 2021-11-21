@@ -61,7 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 128, 0);
+    background-color: #003A8C;
     color: #fff;
     font-family: var(--font-action);
     opacity: 0;
@@ -70,7 +70,7 @@
 .hamburguer span::before {
     content: " ";
     position: absolute;
-    border-right: .5rem solid rgb(0, 128, 0);
+    border-right: .5rem solid #003A8C;
     border-top: .5rem solid transparent;
     border-left: .5rem solid transparent;
     border-bottom: .5rem solid transparent;
@@ -145,9 +145,9 @@ header {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    background-color: red;
-    background-image: -webkit-linear-gradient(to right, red, green);
-    background: linear-gradient(to right, red, rgb(0, 128, 0));
+    background-color: #003A8C;
+    background-image: -webkit-linear-gradient(to right, #003A8C, #001533);
+    background: linear-gradient(to right, #003A8C, #001533);
     padding: 1rem 3rem;
     border: none;
     border-radius: 5px;
@@ -158,8 +158,8 @@ header {
 
 .banner button:hover {
     background: #000025;
-    background-image: -webkit-linear-gradient(to right, rgb(143, 1, 1), rgb(0, 66, 0));
-    background: linear-gradient(to right, rgb(143, 1, 1), rgb(0, 66, 0));
+    background-image: -webkit-linear-gradient(to right, #002c69, #000f24);
+    background: linear-gradient(to right, #002c69, #000f24);
     transition: 0.5s;
 }
 
@@ -203,13 +203,13 @@ header {
 .menu-link {
     font-family: var(--font-secondary);
     font-size: 1.7rem;
-    color: rgb(0, 128, 0);
+    color: #003A8C;
     transition: color 1s;
 
 }
 
 .menu-link:hover {
-    color: rgb(0, 66, 0);
+    color: #000f24;
     text-decoration: underline;
 }
 
@@ -221,7 +221,7 @@ header {
     justify-content: space-evenly;
 }
 .social-media i {
-    background-color: rgb(0, 128, 0);
+    background-color: #003A8C;
     color: #fff;
     height: 2.5rem;
     width: 2.5rem;
@@ -234,7 +234,18 @@ header {
 }
 
 .social-media i:hover {
-    background-color: rgb(0, 66, 0);
+    background-color: #000f24;
 }
 
+.imgage {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
 
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}

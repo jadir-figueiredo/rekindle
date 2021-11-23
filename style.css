@@ -357,6 +357,10 @@ header {
     transition: .3s;
 }
 
+.card:hover .card-info {
+    bottom: 2rem;
+}
+
 .card-info h2 {
     font-family: var(--font-primary);
     font-size: 2rem;
@@ -387,6 +391,9 @@ header {
     box-shadow: 0 0.1rem .8rem rgba(0, 0, 0, 0.4);
 }
 
-.card:hover .card-info {
-    bottom: 2rem;
+.card-info button:hover {
+    background: #000025;
+    background-image: -webkit-linear-gradient(to right, #002c69, #000f24);
+    background: linear-gradient(to right, #002c69, #000f24);
+    transition: 0.5s;
 }

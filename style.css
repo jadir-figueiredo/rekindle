@@ -693,6 +693,17 @@ footer {
 }
 
 @media screen and (max-width: 455px) {
+    .banner {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin-right: 50px;
+        margin-left: -20px;
+
+    }
+}
+
+@media screen and (max-width: 455px) {
     .banner h1 {
         font-size: 3.8rem
     }
@@ -709,31 +720,36 @@ footer {
 }
 
 @media screen and (max-width: 455px) {
-    .confissoes {
+    .confissao {
         display: flex;
+        justify-content: left;
         flex-direction: column;
-        margin: 20px;
-        object-fit: cover;
+        margin-right: 50px;
+        margin-left: -20px;
     }
 }
 
 @media screen and (max-width: 455px) {
-    .confissao {
-        padding: 20px;
-        width: 100%;
+    .confissao-header, .i {
+        text-align: center;
     }
 }
 
-
-@media screen and (max-width: 455px){
-    .about-info p {
-        background-color: red;
-        margin: 10px;
-        padding: 5px;
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+@media screen and (max-width: 455px) {
+    .confissao-text {
         text-align: center;
+        line-height: 1.2
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .about-info {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .img-wrapper-about {
+        margin-left: 30px;
     }
 }

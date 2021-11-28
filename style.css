@@ -636,6 +636,10 @@ footer {
 @media screen and (max-width: 615px) {
     .banner p {
         font-size: 2.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 
@@ -663,6 +667,10 @@ footer {
 @media screen and (max-width: 615px){
     .about-info p {
         font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
 

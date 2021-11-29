@@ -635,4 +635,7 @@ footer {
     .confissao-text {
         text-align: center;
     }
+    footer p {
+        text-align: center;
+    }
 }

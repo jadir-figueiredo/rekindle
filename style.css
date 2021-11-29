@@ -267,26 +267,29 @@ header {
 }
 .confissao:nth-child(2) {
     grid-column: 2 / 8;
-    grid-row: 4 / 6;
+    grid-row: 3 / 5;
 }
 .confissao:nth-child(3) {
     grid-column: 2 / 8;
-    grid-row: 7 / 9;
+    grid-row: 6 / 8;
 }
 .confissao:nth-child(4) {
     grid-column: 14 / 20;
-    grid-row: 4 / 6;
+    grid-row: 3 / 5;
 }
 .confissao:nth-child(5) {
     grid-column: 14 / 20;
-    grid-row: 7 / 9;
+    grid-row: 6 / 8;
 }
 
 .sessao-confissoes {
-    background-color: #f5f5f5;
+    width: 100%;
+    height: 105vh;
+    position: relative;
 }
 
 .sessao-header {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,6 +309,7 @@ header {
     align-items: center;
     color: #00204D;
     justify-content: center;
+    
 }
 
 .confissao-header i {
